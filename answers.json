@@ -1,0 +1,43 @@
+{
+  "task_1": {
+    "params": {
+      "n_estimators": 20,
+      "max_depth": 6,
+      "min_samples_split": 5,
+      "min_samples_leaf": 5,
+      "criterion": "squared_error"
+    },
+    "model_path": "models\\task_1.joblib"
+  },
+  "task_2": {
+    "model_path": "models\\task_2_weights.h5"
+  },
+  "task_3": {
+    "model_path": "models\\task_3.cbm"
+  },
+  "task_4": {
+    "model_path": "models\\task_4_weights.h5",
+    "fit_params": {
+      "batch_size": 128,
+      "epochs": 2
+    },
+    "aug_params": {
+      "featurewise_center": false,
+      "samplewise_center": false,
+      "featurewise_std_normalization": false,
+      "samplewise_std_normalization": false,
+      "rotation_range": 0,
+      "width_shift_range": 0.0,
+      "height_shift_range": 0.0,
+      "brightness_range": null,
+      "shear_range": 0.0,
+      "zoom_range": 0.0,
+      "channel_shift_range": 0.0,
+      "fill_mode": "nearest",
+      "cval": 0.0,
+      "horizontal_flip": false,
+      "vertical_flip": false,
+      "rescale": null
+    }
+  }
+}
