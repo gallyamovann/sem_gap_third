@@ -18,8 +18,8 @@
   "task_4": {
     "model_path": "models\\task_4_weights.h5",
     "fit_params": {
-      "batch_size": 128,
-      "epochs": 2
+      "batch_size": 16,
+      "epochs": 200
     },
     "aug_params": {
       "featurewise_center": false,
@@ -27,16 +27,16 @@
       "featurewise_std_normalization": false,
       "samplewise_std_normalization": false,
       "rotation_range": 0,
-      "width_shift_range": 0.0,
-      "height_shift_range": 0.0,
+      "width_shift_range": 0.5,
+      "height_shift_range": 0.5,
       "brightness_range": null,
-      "shear_range": 0.0,
+      "shear_range": 0.5,
       "zoom_range": 0.0,
       "channel_shift_range": 0.0,
-      "fill_mode": "nearest",
+      "fill_mode": "wrap",
       "cval": 0.0,
-      "horizontal_flip": false,
-      "vertical_flip": false,
+      "horizontal_flip": true,
+      "vertical_flip": true,
       "rescale": null
     }
   }
